@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-ygnp.onrender.com/videos
 Content-type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-type: application/json
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET https://node-ygnp.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/fa785fa5-75ed-4729-a7c5-9d13dc5bd270
+PUT https://node-ygnp.onrender.com/videos/fa785fa5-75ed-4729-a7c5-9d13dc5bd270
 Content-type: application/json
 
 {
@@ -24,5 +24,5 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/fa785fa5-75ed-4729-a7c5-9d13dc5bd270
+DELETE https://node-ygnp.onrender.com/videos/fa785fa5-75ed-4729-a7c5-9d13dc5bd270
 ###
